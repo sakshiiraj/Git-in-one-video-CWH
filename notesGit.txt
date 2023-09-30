@@ -52,3 +52,5 @@ git push -u origin master  	----> means whenever I type "git push" command after
 -------------------------------------- CLONING
 git clone url <folderName where it cloned>
 git clone url ----> clone with the same name
+
+
