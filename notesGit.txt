@@ -13,3 +13,10 @@ git status - s   ----> overview of logs in short (what's exactly happening in fi
 git rm <fileName>                ----> remove files from working and staging area
 git rm --cached <fileName>       ----> remove files from staging area only but still there in hard drive 
                                   (untracked files me wapis laane ke liye staging area se)
+
+--------------------------------------------------------------
+
+.gitignore
+--> with /<directory OR folderName> we can ignore whole folder or directory
+--> with (*.log) ignore all the files with extension .log
+--> with (/mylogs.log or /<fileName>) ignore .log files from the root directory only (jha par .gitignore hai whi par bs ignore krna us file ko jo mention  hai using /fileName)
