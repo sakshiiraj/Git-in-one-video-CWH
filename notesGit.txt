@@ -24,4 +24,5 @@ git rm --cached <fileName>       ----> remove files from staging area only but s
 ----------------------------------------------------------------
 Branching
 
-git checkout <branchName> --> to switch to specific branch
+git checkout <branchName>   --> make a new branch
+git checkout -b <branchName> --> make a new branch as well as switched to that branch
