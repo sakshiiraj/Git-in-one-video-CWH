@@ -26,3 +26,29 @@ Branching
 
 git checkout <branchName>   --> make a new branch
 git checkout -b <branchName> --> make a new branch as well as switched to that branch
+
+----- REMOTE REPOSITORY 
+
+* Ek aisa URL jha hm apne repo ko host krenge
+* Ek aisa repo jha hm apne local repo/folder ko push krte hai 
+
+
+** Connect Remote and Local Repo :- git remote add origin url 
+				    (url === https://github.com/sakshiiraj/Git-in-one-video-CWH.git)
+=> Means ek ORIGIN naam ka remote add kr do URL ki jagah pe (to url ka short me name origin hoga)
+
+
+-----------------------------------------
+git remote    ----> gives origin as output i.e URL
+git remote -v ----> gives URLs to fetch and push
+
+------------------------------------------
+
+git push       			----> sirf usi particular branch (ex. flaskIntegration me push krega)
+git push origin master  	----> push kr do mere origin (i.e URL) pe master ko  / push kr do master ko origin pe  
+git push -u origin master  	----> means whenever I type "git push" command after this command it always push to origin (i.e url), 
+         			      or baar baar origin master type krne ki zrurt nhi hai
+
+-------------------------------------- CLONING
+git clone url <folderName where it cloned>
+git clone url ----> clone with the same name
