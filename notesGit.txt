@@ -20,3 +20,8 @@ git rm --cached <fileName>       ----> remove files from staging area only but s
 --> with /<directory OR folderName> we can ignore whole folder or directory
 --> with (*.log) ignore all the files with extension .log
 --> with (/mylogs.log or /<fileName>) ignore .log files from the root directory only (jha par .gitignore hai whi par bs ignore krna us file ko jo mention  hai using /fileName)
+
+----------------------------------------------------------------
+Branching
+
+git checkout <branchName> --> to switch to specific branch
