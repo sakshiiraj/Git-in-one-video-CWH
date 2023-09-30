@@ -1,0 +1,4 @@
+git diff          ----> compare working directory --> to --> staged directory.
+git diff --staged ----> compare staged directory to last commit.
+git checkout      ----> get back to the last commit (if you make mistake unknowingly).
+git commit -a -m  ----> skipped staging area and commit only from working directory.
